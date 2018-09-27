@@ -1,0 +1,47 @@
+[
+    {
+        "position": 1,
+        "firstName": "Vaishali",
+        "lastName": "Bhatt",
+        "dob": "11 june",
+        "phoneNumber": "8904655632",
+        "emailId": "vaishalibhatt@gmail.com",
+        "image":"assets/photos/photo.jpg"
+    },
+    {
+        "position": 2,
+        "firstName": "Neeraj",
+        "lastName": "Singh",
+        "dob": "20 july",
+        "phoneNumber": "4565345432",
+        "emailId": "neeraj@gmail.com",
+        "image":"assets/photos/photo.jpg"
+    },
+    {
+        "position": 3,
+        "firstName": "Anurudh",
+        "lastName": "Pathak",
+        "dob": "27 Jan",
+        "phoneNumber": "9567543456",
+        "emailId": "anurudh@gmail.com",
+        "image":"assets/photos/photo.jpg"
+    },
+    {
+        "position": 4,
+        "firstName": "Rajat",
+        "lastName": "Chauhan",
+        "dob": "12 Feb",
+        "phoneNumber": "8765435465",
+        "emailId": "rajat@gmail.com",
+        "image":"assets/photos/photo.jpg"
+    },
+    {
+        "position": 5,
+        "firstName": "Krunal",
+        "lastName": "Patel",
+        "dob": "20 Oct",
+        "phoneNumber": "90876534526",
+        "emailId": "krunal@gmail.com",
+        "image":"assets/photos/photo.jpg"
+    }
+]

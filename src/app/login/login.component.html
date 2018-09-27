@@ -1,0 +1,15 @@
+
+    <div class="col-md-4 col-md-offset-2 margin-top-40px login-box">
+      <h1 class="text-center">Login </h1>
+      <form (ngSubmit)="login(f)" #f="ngForm">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" name="email" ngModel>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" name="password" ngModel>
+        </div>
+        <button class="btn btn-md btn-primary btn-block" type="submit" [disabled]="!f.valid">Sign In</button>
+      </form>
+    </div>

@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+    font-family:  Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+.margin-top-40px{
+    margin-top:60px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.sidenav {
+    width: 230px;
+    z-index: 1;
+    
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+table {
+    width: 100%;
+  }
+
+  .margin-top-20px{
+      margin-top:20px;
+  }
